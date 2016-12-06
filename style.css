@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee|Open+Sans|Oswald|PT+Sans|Roboto+Condensed');
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    background-color: rgba(153, 255, 153, 0.75);
+    text-align: center;
+}
+
+.bungee {
+    font-family: 'Bungee';
+}
+
+.opensans {
+    font-family: 'Open Sans';
+}
+
+.oswald {
+    font-family: 'Oswald';
+}
+
+.rc {
+    font-family: 'Roboto Condensed';
+    font-size: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    font-size: 50px;
+    padding: 25px 25px;
+    background-color: rgba(153, 255, 153, 0.5);
+    text-shadow: -2px -2px 0 #030, 2px -2px 0 #030, -2px 2px 0 #030, 2px 2px 0 #030, 0px 5px 7px rgba(3, 30, 6, 1);
+    color: #004D00;
+    margin-top: 0;
+}
+
+.gtext {
+    color: #004D00;
+}
+
+.align {
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+}
+
+body {
+    background: url("tree2.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.filler {
+    padding: 275px;
+}
+
+button.accordion {
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 2%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    min-height: 50px;
+    margin-left: 10px;
+}
+
+.red {
+    background-color: #F00;
+}
+
+.orange {
+    background-color: #F90;
+}
+
+.yellow {
+    background-color: #FF0;
+}
+
+.green {
+    background-color: #3C3;
+}
+
+.blue {
+    background-color: #00F;
+}
+
+button.red {
+     content: '\02795';
+    border: 2px solid #F00;
+    border-radius: 5px;
+}
+
+button.orange {
+    border: 2px solid #F90;
+    border-radius: 5px;
+}
+
+button.yellow {
+    border: 2px solid #FF0;
+    border-radius: 5px;
+}
+
+button.green {
+    border: 2px solid #3C3;
+    border-radius: 5px;
+}
+
+button.blue {
+    border: 2px solid #00F;
+    border-radius: 5px;
+}
+
+button.red.active, button.red:hover {
+    border: 2px solid #C00;
+    background-color: #C00;
+}
+
+button.orange.active, button.orange:hover {
+    border: 2px solid #CC7A00;
+    background-color: #CC7A00;
+}
+
+button.yellow.active, button.yellow:hover {
+    border: 2px solid #CC0;
+    background-color: #CC0;
+}
+
+button.green.active, button.green:hover {
+    border: 2px solid #29A329;
+    background-color: #29A329;
+}
+
+button.blue.active, button.blue:hover {
+    border: 2px solid #00C;
+    background-color: #00C;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: rgba(255, 255, 255, 0.75);
+    min-height: 60.5px;
+    width: auto;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+    margin-right: 600px;
+    max-width: 95%;
+}
+
+div.panel.show {
+    opacity: 1;
+    min-height: 60.5px;
+    margin-right: 10px;
+    margin-left: 62px;
+}
+
+.jumbotwo {
+    font-family: 'Oswald';
+    font-size: 50px;
+    padding: 30px 50px;
+    background-color: rgba(255, 255, 255, 0.75);
+    text-shadow: -2px -2px 0 #030, 2px -2px 0 #030, -2px 2px 0 #030, 2px 2px 0 #030, 0px 5px 7px rgba(3, 30, 6, 1);
+    color: #004D00;
+}
+
+.icon {
+  color: #FFF;
+  margin-left: -2px;
+}
