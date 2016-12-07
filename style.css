@@ -182,5 +182,5 @@ div.panel.show {
 .align3 {
     position: relative;
     top: 50%;
-    transform: translateY(7.5%);
+    transform: translateY(10%);
 }
