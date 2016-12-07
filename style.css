@@ -90,7 +90,7 @@ button.accordion {
 }
 
 button.red {
-     content: '\02795';
+    content: '\02795';
     border: 2px solid #F00;
     border-radius: 5px;
 }
@@ -169,6 +169,18 @@ div.panel.show {
 }
 
 .icon {
-  color: #FFF;
-  margin-left: -3px;
+    color: #FFF;
+    margin-left: -2px;
+}
+
+.align2 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-10%);
+}
+
+.align3 {
+    position: relative;
+    top: 50%;
+    transform: translateY(7.5%);
 }
